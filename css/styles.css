@@ -9,7 +9,7 @@ h1 {
   font-size: 5.625rem;
   color:  #66BFBF;
   line-height: 2;
-  margin: 0 auto 0 auto;        /*Top-right-bottom-left*/
+  margin: 60px auto 0 auto;        /*Top-right-bottom-left*/
   font-family: 'Sacramento', cursive;
 
 }
@@ -68,6 +68,8 @@ a:hover{
   padding: 20px 0;
 }
 
+
+
 .footer-link{
   color: #11999E;
 }
@@ -78,11 +80,15 @@ a:hover{
 
 .bottom-cloud {
   position: absolute;
+  bottom:313px;
+  left:300px;
 }
 
 .top-cloud {
-  position: relative;
-  left: 245px;
+  position: absolute;
+  right:300px;
+  top:20px;
+
 }
 
 
